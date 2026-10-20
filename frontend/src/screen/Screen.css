@@ -1,0 +1,191 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.logo {
+  height: 8em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ff6464aa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #6192fbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.info {
+  margin-top: 1rem;
+  color: #e72222a2;
+}
+
+.subtitle {
+  color: #888;
+}
+
+#first-screen-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+#logo-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* ActivityScreen Styles */
+.activity-screen-course-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.details {
+  margin-top: 30px;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 2px solid #d36666;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details h3 {
+  color: #000000;
+  margin: 0 0 15px 0;
+}
+
+.details p {
+  color: #300000;
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.activity-screen-tasks-section {
+  margin-top: 30px;
+}
+
+/* Menu split screen */
+.menu-container {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.menu-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+}
+
+.menu-panel.right {
+  background-color: #e94242;
+  color: #ffffff;
+}
+
+.menu-panel.left {
+  background-color: #ffffff;
+  color: #111111;
+  border-left: 1px solid #f0f0f0;
+}
+
+.menu-title {
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.menu-title.red {
+  color: #ffffff;
+}
+
+.menu-title.light {
+  color: #e94242;
+}
+
+.menu-button {
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+  padding: 16px 32px;
+  font-size: 1.05rem;
+  min-width: 280px;
+  width: 60%;
+  max-width: 420px;
+}
+
+.menu-button.red {
+  background-color: #ffffff;
+  color: #e94242;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.menu-button.white:hover {
+  transform: translateY(-1px);
+}
+
+.menu-button.white {
+  background-color: #e94242;
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(233, 66, 66, 0.35);
+}
+
+.menu-button.red:hover {
+  transform: translateY(-1px);
+}
+
+.go-to-page-button {
+  position: fixed;
+  top: 20px;
+  left: 10%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background-color: #d80000;
+  color: #ffffff;
+}
+
+
+.go-to-page-button:hover {
+  background-color: #cd0c0c;
+  border-color: rgb(253, 255, 164);
+}

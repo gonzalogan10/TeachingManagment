@@ -1,0 +1,1343 @@
+/* TaskReport Styles */
+.task-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #fff3e0;
+  border-radius: 4px;
+}
+
+.task-report-toggle-button {
+  padding: 10px 20px;
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.task-report-form {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.task-report-field {
+  margin-bottom: 15px;
+}
+
+.task-report-select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.task-report-textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.task-report-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.task-report-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.task-report-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.task-report-submit-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-report-cancel-button {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* TaskList Styles */
+.list-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.task-list-header {
+  color: #c1bdbdff;
+  border-bottom: 2px solid #999;
+  padding-bottom: 10px;
+}
+
+.task-list-error {
+  color: red;
+}
+
+.task-list-empty {
+  color: #828282ff;
+  font-size: 1.1em;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  padding: 12px;
+  margin: 8px 0;
+  background-color: #fcd1d1;
+  border-left: 5px solid #bd4d4d;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.task-item.selected {
+  background-color: #f0f8ff;
+  border-left-color: #0066cc;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-title-section {
+  flex: 1;
+}
+
+.task-title {
+  font-size: 1.05em;
+  color: #333;
+}
+
+.task-type {
+  color: #666;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.task-actions-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.task-solver-info {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.task-has-solver {
+  background-color: #e8f5e9;
+  padding: 4px 8px;
+  border-radius: 3px;
+}
+
+.task-no-solver {
+  background-color: #fff3e0;
+  padding: 4px 8px;
+  border-radius: 3px;
+}
+
+.task-delete-button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.1em;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 3px;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.task-delete-button:hover {
+  opacity: 1;
+  background-color: #ffebee;
+}
+
+.task-details {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #ddd;
+}
+
+.task-description {
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.task-dates-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.task-date-info {
+  color: #666;
+  margin: 5px 0;
+}
+
+.task-solvers-section {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.task-solvers-header {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.task-main-solver {
+  background-color: #c8e6c9;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  border-left: 3px solid #4caf50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-other-solvers-section {
+  margin-top: 10px;
+}
+
+.task-other-solvers-label {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.task-other-solver-item {
+  color: #666;
+  font-size: 0.9em;
+  margin: 4px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-solver-remove-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  cursor: pointer;
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+  margin-left: 8px;
+}
+
+.task-solver-remove-button:hover {
+  background-color: #d32f2f;
+}
+
+.task-add-solver-section {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #e3f2fd;
+  border-radius: 4px;
+}
+
+.task-add-solver-label {
+  font-size: 0.9em;
+  color: #1976d2;
+  margin-bottom: 8px;
+}
+
+.task-add-solver-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.task-add-solver-select {
+  padding: 6px 8px;
+  border-radius: 3px;
+  border: 1px solid #1976d2;
+  font-size: 0.9em;
+  flex: 1;
+}
+
+.task-add-solver-button {
+  padding: 6px 12px;
+  border-radius: 3px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.task-add-solver-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.task-assign-section {
+  margin-top: 15px;
+}
+
+.task-assign-label {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.task-assign-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.task-assign-select {
+  padding: 6px 8px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  font-size: 0.9em;
+  flex: 1;
+}
+
+.task-assign-button {
+  padding: 6px 12px;
+  border-radius: 3px;
+  border: none;
+  background-color: #0066cc;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.task-assign-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* ActivityList Styles */
+.list-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.activity-list-header {
+  color: #c1bdbdff;
+  border-bottom: 2px solid #999;
+  padding-bottom: 10px;
+}
+
+.activity-list-error {
+  color: red;
+}
+
+.activity-list-empty {
+  color: #828282ff;
+  font-size: 1.1em;
+}
+
+.activity-list {
+  list-style: none;
+  padding: 0;
+}
+
+.activity-item {
+  padding: 15px;
+  margin: 8px 0;
+  background-color: #e8e8e8;
+  border-left: 5px solid #999;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.activity-item.selected {
+  background-color: #d1e7f5;
+  border-left-color: #1976d2;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.activity-title {
+  font-size: 1.1em;
+  color: #333;
+}
+
+.activity-type {
+  color: #666;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.activity-header-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  gap: 10px;
+}
+
+.activity-delete-button {
+  background: none;
+  border: none;
+  color: #f44336;
+  font-size: 0.8em;
+  cursor: pointer;
+  padding: 0;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+  min-width: auto;
+}
+
+.activity-delete-button:hover {
+  opacity: 1;
+}
+
+.activity-details {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #999;
+}
+
+.activity-info {
+  color: #666;
+  margin: 5px 0;
+}
+
+/* TaskCreator Styles */
+.task-container {
+  color: #004999;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.task-creator-toggle-button {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.task-creator-form {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.task-creator-field {
+  margin-bottom: 15px;
+}
+
+.task-creator-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.task-creator-textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.task-creator-select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.task-creator-dates-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.task-creator-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.task-creator-submit-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-creator-submit-button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.task-creator-cancel-button {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* ActivityCreator Styles */
+.activity-container {
+  margin-top: 20px;
+  padding: 15px;
+}
+
+.activity-creator-toggle-button {
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.activity-creator-form {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.activity-creator-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.activity-creator-select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.activity-creator-submit-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.activity-creator-submit-button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+/* CourseSelector Styles */
+.course-selector-error {
+  color: red; 
+}
+
+/* EvaluationForm Styles */
+.evaluation-form {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.evaluation-form h4 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.evaluation-form p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.evaluation-already-evaluated {
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 0.9em;
+  border-left: 4px solid #4CAF50;
+}
+
+.evaluation-already-evaluated.editable {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border-left: 4px solid #4CAF50;
+}
+
+.evaluation-already-evaluated.locked {
+  background-color: #ffebee;
+  color: #c62828;
+  border-left: 4px solid #f44336;
+}
+
+.evaluation-students-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 15px 0;
+  padding: 12px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+.evaluation-student-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.evaluation-student-row label {
+  min-width: 150px;
+  font-weight: 500;
+  color: #333;
+}
+
+.evaluation-points-given {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.evaluation-student-row .evaluation-points-given {
+  margin-top: 0;
+  flex: 1;
+  max-width: 150px;
+}
+
+.evaluation-feedback {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-height: 100px;
+  box-sizing: border-box;
+}
+
+.evaluation-submit {
+  padding: 10px 20px;
+  background-color: #3ab38b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.evaluation-submit:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.evaluation-students {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.evaluation-student-id {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.evaluation-status {
+  margin-top: 8px;
+}
+
+.evaluation-error {
+  color: #c00;
+  font-weight: 600;
+}
+
+/* Criterion Filter Styles */
+.criterion-filter {
+  color: #004999;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.filter-row {
+  margin-bottom: 8px;
+}
+
+.filter-row label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.filter-row select,
+.filter-row input {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Totals Panel Styles */
+.totals-panel {
+  color: #004999;
+  margin-top: 30px;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 2px solid #d36666;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.totals-panel h4 {
+  margin: 0 0 8px 0;
+}
+
+.totals-panel p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+ 
+.evaluation-success {
+  color: #080;
+  font-weight: 600;
+}
+
+/* TeamSelector Styles */
+.team-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.team-button-selected {
+  background-color: #0066cc;
+  color: white;
+}
+
+.team-button-selected:hover {
+  background-color: #004999;
+}
+
+/* TeamList Styles */
+.team-list-header {
+  color: #c1bdbdff;
+  border-bottom: 2px solid #999;
+  padding-bottom: 10px;
+}
+
+.team-list-error {
+  color: red;
+}
+
+.team-list-empty {
+  color: #828282ff;
+  font-size: 1.1em;
+}
+
+.team-list {
+  list-style: none;
+  padding: 0;
+}
+
+.team-item {
+  padding: 15px;
+  margin: 8px 0;
+  background-color: #e8e8e8;
+  border-left: 5px solid #999;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.team-item.selected {
+  background-color: #d1e7f5;
+  border-left-color: #1976d2;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.team-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team-title-section {
+  flex: 1;
+}
+
+.team-title {
+  font-size: 1.1em;
+  color: #333;
+}
+
+.team-member-count {
+  color: #666;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.team-details {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #999;
+}
+
+.team-members-section {
+  margin-bottom: 15px;
+}
+
+.team-members-header {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.team-members-list {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.team-member-item {
+  color: #555;
+  margin: 5px 0;
+  font-size: 0.95em;
+}
+
+.team-no-members {
+  color: #999;
+  font-style: italic;
+  margin: 5px 0;
+}
+
+.team-add-member-section {
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.team-add-label {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.team-add-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.team-add-select {
+  padding: 6px 8px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  font-size: 0.9em;
+  flex: 1;
+}
+
+.team-add-button {
+  padding: 6px 12px;
+  border-radius: 3px;
+  border: none;
+  background-color: #0066cc;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.team-add-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.team-actions {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.team-delete-button {
+  padding: 8px 15px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.team-delete-button:hover {
+  background-color: #d32f2f;
+}
+
+/* Task Reports List Styles */
+.task-reports-list {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  border-left: 4px solid #ff9800;
+}
+
+.task-reports-list h4 {
+  margin-top: 0;
+  color: #333;
+}
+
+.task-report-item {
+  background-color: white;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border-left: 3px solid #ff9800;
+}
+
+.task-report-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.task-report-solver {
+  font-weight: bold;
+  color: #ff9800;
+}
+
+.task-report-delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  cursor: pointer;
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.task-report-delete-button:hover {
+  background-color: #d32f2f;
+}
+
+.task-report-content {
+  color: #333;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.task-report-detail {
+  color: #666;
+  font-size: 0.9em;
+  margin: 4px 0;
+}
+
+/* Evaluation List Styles */
+.evaluation-list-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  border-left: 4px solid #2196F3;
+}
+
+.evaluation-list-container h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 1.1em;
+}
+
+.evaluation-list-empty {
+  color: #999;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.evaluation-list-loading {
+  color: #666;
+  margin: 10px 0;
+}
+
+.evaluation-criterion-group {
+  margin-bottom: 20px;
+  padding: 12px;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.evaluation-criterion-group h4 {
+  margin: 0 0 10px 0;
+  color: #2196F3;
+  font-size: 1em;
+}
+
+.evaluation-assessments {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.evaluation-assessment-item {
+  padding: 8px;
+  background-color: #fafafa;
+  border-left: 3px solid #4CAF50;
+  border-radius: 2px;
+}
+
+.evaluation-student-name {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 4px;
+  font-size: 0.95em;
+}
+
+.evaluation-points-display {
+  color: #2196F3;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-bottom: 4px;
+}
+
+.evaluation-feedback-display {
+  color: #666;
+  font-size: 0.85em;
+  line-height: 1.4;
+  margin-top: 4px;
+  padding: 4px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.evaluation-criterion-total {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #ddd;
+  font-weight: bold;
+  color: #333;
+  text-align: right;
+  font-size: 0.95em;
+}
+
+/* LoadCalculator Styles */
+.load-calculator-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.load-calculator-toggle-button {
+  padding: 10px 20px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.load-calculator-toggle-button:hover {
+  background-color: #1976D2;
+}
+
+.load-calculator-panel {
+  margin-top: 15px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.load-calculator-loading {
+  text-align: center;
+  color: #999;
+  padding: 20px;
+}
+
+.load-calculator-error {
+  color: #f44336;
+  padding: 15px;
+  background-color: #ffebee;
+  border-radius: 4px;
+}
+
+.load-calculator-content h4 {
+  margin-top: 0;
+  color: #333;
+  border-bottom: 2px solid #2196F3;
+  padding-bottom: 10px;
+}
+
+.load-calculator-summary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #e3f2fd;
+  border-radius: 4px;
+}
+
+.load-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.load-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.load-value {
+  color: #2196F3;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.load-calculator-details {
+  margin-top: 20px;
+}
+
+.load-calculator-details h5 {
+  margin-top: 0;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+
+.load-reports-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.load-report-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.load-report-header {
+  background-color: #f5f5f5;
+  padding: 10px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.load-report-solver {
+  font-weight: bold;
+  color: #333;
+}
+
+.load-report-body {
+  padding: 15px;
+  background-color: white;
+}
+
+.load-report-body p {
+  margin: 8px 0;
+  font-size: 0.95em;
+  color: #555;
+}
+
+.load-no-reports {
+  text-align: center;
+  color: #999;
+  padding: 20px;
+  font-style: italic;
+}
+
+/* CriterionCreator Styles */
+.criterion-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f3e5f5;
+  border-radius: 4px;
+}
+
+.criterion-creator-toggle-button {
+  padding: 10px 20px;
+  background-color: #9c27b0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.criterion-creator-toggle-button:hover {
+  background-color: #7b1fa2;
+}
+
+.criterion-creator-form {
+  margin-top: 15px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.criterion-creator-form h4 {
+  margin: 0 0 15px 0;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.criterion-creator-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.criterion-creator-textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 0.95em;
+}
+
+.criterion-creator-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.checkbox-label input {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.criterion-creator-submit-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.criterion-creator-submit-button:hover {
+  background-color: #45a049;
+}
+
+.criterion-creator-submit-button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}

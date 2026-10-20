@@ -1,0 +1,23 @@
+0000000000000000000000000000000000000000 197c298b67bd2917a2bbf175592add2953a27b5d Gonzalo Gandul <gonzalogan9@gmail.com> 1766923702 +0100	clone: from https://gitlab.com/katia_sifessalam/teaching-management.git
+197c298b67bd2917a2bbf175592add2953a27b5d 5f83409ef1fcb97e3482d65fbf5797e1337f5bb2 Gonzalo Gandul <gonzalogan9@gmail.com> 1766958066 +0100	pull --tags origin main: Fast-forward
+5f83409ef1fcb97e3482d65fbf5797e1337f5bb2 9e3fcd1ad9fab9836d91e382cb3863d0e36b1448 Gonzalo Gandul <gonzalogan9@gmail.com> 1766959735 +0100	commit: Point 3:Create new criteria for evaluation. Only back
+9e3fcd1ad9fab9836d91e382cb3863d0e36b1448 cd1801348d68661ea0335b7d6007a6954af637b8 Gonzalo Gandul <gonzalogan9@gmail.com> 1767110816 +0100	pull --tags origin main: Fast-forward
+cd1801348d68661ea0335b7d6007a6954af637b8 dc4841a1f42398692b79d18b54a4cc6e20885af1 Gonzalo Gandul <gonzalogan9@gmail.com> 1767115723 +0100	pull --tags origin main: Fast-forward
+dc4841a1f42398692b79d18b54a4cc6e20885af1 1d429d97d11ca61a80ef76c6b50c2f57886d1d56 Gonzalo Gandul <gonzalogan9@gmail.com> 1767116104 +0100	commit: 9.Adding a solver to an activity (= adding a teacher to evaluate an activity)
+1d429d97d11ca61a80ef76c6b50c2f57886d1d56 738880148122062c656f1118654bb93b348e60cb Gonzalo Gandul <gonzalogan9@gmail.com> 1767552156 +0100	pull --tags origin main: Fast-forward
+738880148122062c656f1118654bb93b348e60cb 718d9ebbfb2ec44149d29cc3bd6da95a725b2d47 Gonzalo Gandul <gonzalogan9@gmail.com> 1767645541 +0100	pull --tags origin main: Fast-forward
+718d9ebbfb2ec44149d29cc3bd6da95a725b2d47 45fb200cfeaefb303ec3cb7de700d793ef08404a Gonzalo Gandul <gonzalogan9@gmail.com> 1767650570 +0100	commit: Frontend changes now you can see the things that are on the database such de activity task solver...
+45fb200cfeaefb303ec3cb7de700d793ef08404a 17982d3170827d46b8c422c4706732d8041dd20a Gonzalo Gandul <gonzalogan9@gmail.com> 1767984564 +0100	pull --tags origin main: Fast-forward
+17982d3170827d46b8c422c4706732d8041dd20a 81ee54f3d54602d34641f165c6ffa5d6aedc0056 Gonzalo Gandul <gonzalogan9@gmail.com> 1768052009 +0100	pull --tags origin main: Fast-forward
+81ee54f3d54602d34641f165c6ffa5d6aedc0056 dec7a20593de465edf66f9bd634d76152a8dc68a Gonzalo Gandul <gonzalogan9@gmail.com> 1768146932 +0100	pull --tags origin main: Fast-forward
+dec7a20593de465edf66f9bd634d76152a8dc68a 5935e0ef611d7e2973f693e0715b1923508f6f9b Gonzalo Gandul <gonzalogan9@gmail.com> 1768325516 +0100	pull --tags origin main: Fast-forward
+5935e0ef611d7e2973f693e0715b1923508f6f9b 0a84a619342de69adf19d938aec7508f7090deef Gonzalo Gandul <gonzalogan9@gmail.com> 1768338204 +0100	commit: solver button working
+0a84a619342de69adf19d938aec7508f7090deef cf9b044cfe5ca0a85ac1137037ec85bdcbf4c85b Gonzalo Gandul <gonzalogan9@gmail.com> 1768339897 +0100	commit: delete butons report creations solve a task creation view problem
+cf9b044cfe5ca0a85ac1137037ec85bdcbf4c85b cf9b044cfe5ca0a85ac1137037ec85bdcbf4c85b Gonzalo Gandul <gonzalogan9@gmail.com> 1768344750 +0100	reset: moving to HEAD
+cf9b044cfe5ca0a85ac1137037ec85bdcbf4c85b adc570887697f524418910f350becab6d17dae68 Gonzalo Gandul <gonzalogan9@gmail.com> 1768344756 +0100	pull: Fast-forward
+adc570887697f524418910f350becab6d17dae68 82247c46440a66ae79246502bfd46a0cb274e35a Gonzalo Gandul <gonzalogan9@gmail.com> 1768344965 +0100	commit: evaluation
+82247c46440a66ae79246502bfd46a0cb274e35a 4a3d7a5aadf550800d59de3a0457ee3232a0d667 Gonzalo Gandul <gonzalogan9@gmail.com> 1768346248 +0100	commit: add activity button
+4a3d7a5aadf550800d59de3a0457ee3232a0d667 5bab996bd4b981765a678838d0b2f0de17f3e274 Gonzalo Gandul <gonzalogan9@gmail.com> 1768346361 +0100	commit: delete of one test exception
+5bab996bd4b981765a678838d0b2f0de17f3e274 afa6c4d81949d9e93b6c6b2ab42af7242e2c3314 Gonzalo Gandul <gonzalogan9@gmail.com> 1768392668 +0100	pull --tags origin main: Fast-forward
+afa6c4d81949d9e93b6c6b2ab42af7242e2c3314 472b63c2506e23b6c69ab0901ee5ea96ecc7bdb1 Gonzalo Gandul <gonzalogan9@gmail.com> 1768393492 +0100	commit: refreshing when report creation
+472b63c2506e23b6c69ab0901ee5ea96ecc7bdb1 6919d07c1697fa48cc187afde8890d4f765f43cf Gonzalo Gandul <gonzalogan9@gmail.com> 1768399045 +0100	commit: Criterion improved a lot posibility to create....
